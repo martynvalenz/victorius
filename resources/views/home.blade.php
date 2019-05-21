@@ -21,7 +21,7 @@
 <body>
     <!-- begin #page-container -->
     <div id="app">
-        <h1>Herokus</h1>
+        
         <v-app>
             <app-home></app-home>
         </v-app>
