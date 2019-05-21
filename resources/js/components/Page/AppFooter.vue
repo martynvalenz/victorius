@@ -38,7 +38,8 @@
 				    'Nosotros',
 				    'Estadísticas',
 				    'Fantasy Sports',
-				    'Blog'
+				    'Blog',
+                    'Patrocindores'
 				]
 			}
 		}

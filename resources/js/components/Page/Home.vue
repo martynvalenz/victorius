@@ -77,6 +77,7 @@
 			                    :key="index"
 			                    xs12
 			                    md4
+			                    lg4
 			                    >
 			                    <v-item>
 			                        <v-card
@@ -86,11 +87,31 @@
 			                            >
 			                            <v-img
 								          :src="logo.image"
-								          aspect-ratio="2.75" height="200" width="auto"
+								          aspect-ratio="2" height="200" width="auto"
 								        ></v-img>
 			                        </v-card>
 			                    </v-item>
 			                </v-flex>
+                            <!-- <v-flex
+                                v-for="logo in logos"
+                                :key="index"
+                                xs12
+                                md2
+                                lg1
+                                >
+                                <v-item>
+                                    <v-card
+                                        class="d-flex align-center"
+                                        dark
+                                        height="80"
+                                        >
+                                        <v-img
+            					          :src="logo.image"
+            					          aspect-ratio="1" height="80" width="auto"
+            					        ></v-img>
+                                    </v-card>
+                                </v-item>
+                            </v-flex> -->
 			            </v-layout>
 			        </v-container>
 			    </v-item-group>
